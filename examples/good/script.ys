@@ -1,0 +1,5 @@
+read_verilog good_example.v
+synth
+abc
+clean
+stat

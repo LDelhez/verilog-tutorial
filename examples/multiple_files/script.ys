@@ -1,0 +1,5 @@
+read_verilog top.v nand_gate.v
+synth
+abc
+clean
+stat

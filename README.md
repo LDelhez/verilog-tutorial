@@ -1,1 +1,1 @@
-# verilog-tutorial
+# Verilog tutorial
