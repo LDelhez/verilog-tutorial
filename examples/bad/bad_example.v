@@ -27,8 +27,6 @@ always @(a, b) begin
         out = 1'b0;
     end else if ({a, b} == 2'b10) begin
         out = 1'b0;
-    end else begin
-        out = 1'b0;
     end
 end
 
