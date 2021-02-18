@@ -50,7 +50,7 @@ If the testbench file is not the default `testbench.sv` file, replace the conten
 On the left pannel, under *Tools & Simulators*, select *Icarus Verilog* (any version). 
 As compile options, write `-y.`.  
 
-Simulations can then be started by click the *Run* button. 
+Simulations can then be started by clicking the *Run* button. 
 Outputs are printed in the *Log* tab at the bottom of the window.  
 
 ### Synthesis

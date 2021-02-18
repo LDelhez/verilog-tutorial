@@ -18,14 +18,14 @@ Run the following command:
 sudo dnf install iverilog yosys
 ```
 
-### Ubuntu / Debian
+## Ubuntu / Debian
 
 Run the following command:
 ```
 sudo apt-get install iverilog yosys
 ```
 
-### Windows
+## Windows
 
 1. Download the iverilog installer: [https://bleyer.org/icarus/iverilog-v11-20201123-x64_setup.exe](https://bleyer.org/icarus/iverilog-v11-20201123-x64_setup.exe).
 2. Run the installer:

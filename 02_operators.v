@@ -74,7 +74,7 @@ input b;
 input c;
 output out;
 
-assign out = (~a & (b ^ c)) | (a & ~b & ~c); // CHECK
+assign out = (a & (b ^ c)) | (~a & b & c); 
 
 endmodule
 
