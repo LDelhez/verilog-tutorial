@@ -35,9 +35,11 @@ module and3_gate( // This module implements a 3-input AND gate
     out
     );
 
-input in1;
-input in2;
-input in3;
+// input in1;
+// input in2;
+// input in3;
+
+input in1, in2, in3;
 output out;
 
 assign out = in1 & in2 & in3;
@@ -72,12 +74,12 @@ input b;
 input c;
 output out;
 
-assign out = (~a & (b ^ c)) | (a & ~b & ~c); 
+assign out = (~a & (b ^ c)) | (a & ~b & ~c); // CHECK
 
 endmodule
 
 
-module and_or( // Modules can have more than one output.
+module odd_even( // Modules can have more than one output.
     a,
     b,
     odd, // high iff `a` is different than `b`

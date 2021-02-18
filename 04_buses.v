@@ -82,7 +82,6 @@ assign equal[1] = in1[1] == in2[1];
 assign equal[2] = in1[2] == in2[2];
 assign equal[3] = in1[3] == in2[3];
 
-
 assign all_equal = equal[0] & equal[1] & equal[2] & equal[3]; 
 
 

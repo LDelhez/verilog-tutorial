@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-//
+// 
 // When desiging circuits, it is important to test whether the defined modules
 // behave as wanted. This is done using a special type of module known as 
 // a testbench.
@@ -8,7 +8,7 @@
 // A testbench is a module that does not describe a valid circuit.
 // Instead, *a testbench is a computer program* that sends inputs 
 // the circuit under test, and reads its outputs.
-//
+// 
 // When working with testbenches and simulations, *all* Verilog files must start 
 // with a specification of the timescale as shown on top of this file. 
 // 

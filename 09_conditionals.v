@@ -9,9 +9,9 @@
 // The syntax for conditional execution is the following:
 //
 //    if (condition) begin
-//        body1
+//        `body1`    
 //    end else begin
-//        body2
+//        `body2`
 //    end 
 //
 // This construct indicates that `body1` should be executed if `condition` is currently nonzero,
@@ -20,7 +20,7 @@
 // The else clause can optionally be omitted:
 // 
 //    if (condition) begin
-//        body1
+//        `body1`
 //    end 
 //
 // 

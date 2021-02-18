@@ -68,7 +68,7 @@ assign out = expected == in;
 endmodule
 
 //
-// The following module checks whether all bits of its two input 7-bit buses are 1.
+// The following module checks whether all bits of its two input 8-bit buses are 1.
 //
 
 module all_ones(

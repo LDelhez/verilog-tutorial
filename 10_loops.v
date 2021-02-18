@@ -1,7 +1,7 @@
-//
+// 
 // In addition to conditionals, behavioral description also allows the use of 
 // looping constructs to define modules.
-//
+// 
 // Different looping constructs are available. The simplest construct is the
 // `while` loop. Its syntax is 
 //
@@ -41,7 +41,7 @@ endmodule
 // This variable is only used to keep count of the iterations of the loop.
 // For this reason, it is defined as an `integer` and not as a `reg`.
 // 
-// `integer` have an implicit width of 32 bits. They support the same operators as a 32-bit bus does.
+// `integer`s have an implicit width of 32 bits. They support the same operators as a 32-bit bus does.
 // When specifying an `integer` constant, its width can be omitted, as it is assumed to be 32.
 // This is the reason why the constants 0, 8, and 1 in the above code are not written as
 // 32'd0, 32'd8, and 32'd1. 
@@ -89,7 +89,7 @@ module and_reduce_1(
     );
 
 input [9:0] in;
-output reg [9:0] all_ones;
+output reg all_ones;
 
 integer i;
 

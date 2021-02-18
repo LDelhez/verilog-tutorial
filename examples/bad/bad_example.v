@@ -10,7 +10,7 @@
 //   1 1 |  x       <- don't care
 //
 
-module good_example(
+module bad_example(
     a,
     b,
     out

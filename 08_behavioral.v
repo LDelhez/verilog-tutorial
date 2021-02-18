@@ -6,7 +6,7 @@
 // The syntax is 
 //
 //      always @(sensitivity_list) begin
-//          body
+//          `body`
 //      end
 //
 // The presence of such a construct in a module definition indicates that the behavior of 
